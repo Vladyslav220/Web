@@ -1,0 +1,13 @@
+@import "normalize.min.css";
+
+@import "globals.css";
+
+@import "header.css";
+
+@import "hero.css";
+
+@import "adventures.css";
+
+@import "destinations.css";
+
+@import "footer.css";

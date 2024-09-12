@@ -1,0 +1,45 @@
+#adventures {
+  background-image: url("../images/adventure-image.svg");
+  background-repeat: no-repeat;
+  background-position: left 21.5% top 45%;
+  background-color: #f8f8f8;
+}
+
+#adventures__heading {
+  color: #000;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  padding-top: 207px;
+  position: relative;
+  left: 60%;
+  width: 481px;
+}
+
+#adventures__paragraph {
+  font-family: "Muli";
+  color: #7d7987;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 30px;
+  position: relative;
+  left: 60%;
+  width: 481px;
+  padding-top: 10px;
+}
+
+#adventures__orande__button {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  background: #fb8f1d;
+  width: 164px;
+  line-height: 40px;
+  position: relative;
+  left: 60%;
+  margin-bottom: 240px;
+  margin-top: 30px;
+  padding: 0px;
+}

@@ -1,0 +1,41 @@
+#footer {
+  background-color: #f8f8f8;
+}
+
+#footer__logo {
+  display: inline-block;
+  padding: 26px 0;
+}
+
+#footer__rights {
+  position: relative;
+  display: inline-block;
+  left: 68%;
+  color: #848484;
+  font-family: "Muli";
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 28px;
+  top: -38px;
+}
+
+#footer__rectangle {
+  width: 1219px;
+  height: 0.6px;
+  background-color: #c4c4c4;
+}
+
+#footer__social__media {
+  text-align: center;
+  padding-top: 32.4px;
+  padding-bottom: 30px;
+}
+
+.footer__margin__right {
+  margin-right: 35px;
+}
+
+#empty-block {
+  height: 1px;
+  background-color: transparent;
+}

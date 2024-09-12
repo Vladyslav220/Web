@@ -1,0 +1,13 @@
+.container {
+  margin: 0 auto;
+  max-width: 1219px;
+}
+li{
+    display: block;
+}
+button{
+    border: 0px;
+}
+h1{
+    margin: 0px;
+}
