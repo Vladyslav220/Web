@@ -1,0 +1,70 @@
+:root {
+  --color-dark: #111b47;
+  --color-font-dark: #091133;
+
+  --font-size-md: 1rem;
+  --font-size-sm: 0.875rem;
+  --font-size-xs: 0.75rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1219px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0px 30px;
+  }
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: block;
+}
+button {
+  border: 0px;
+}
+h1 {
+  margin: 0px;
+}
+@media screen and (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+  h1 {
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  :root {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1800px) {
+  body {
+    font-size: 120%;
+    position: relative;
+    top: 120px;
+  }
+  .container {
+    max-width: auto;
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  max-width: 100%;
+}

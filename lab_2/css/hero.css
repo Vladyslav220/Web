@@ -1,0 +1,153 @@
+#hero {
+  background-image: url("../images/hero-image.svg");
+  background-repeat: no-repeat;
+  background-position: right 8% top 42%;
+}
+
+#hero__inner {
+  padding-bottom: 222px;
+  padding-top: 114px;
+}
+
+#hero__heading {
+  font-family: "Playfair Display", serif;
+  color: #202336;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  padding-bottom: 74px;
+  width: 356px;
+}
+
+#hero__chapter {
+  font-family: "Inter", sans-serif;
+  color: #202336;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+#hero__rectangle {
+  width: 32px;
+  height: 2px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #202336;
+  margin-top: 25px;
+}
+
+#hero__top__dropdown__buttons {
+  padding-top: 48px;
+}
+
+#hero__bottom__dropdown__buttons {
+  padding-top: 35px;
+}
+
+#hero__orange__button {
+  color: #fff;
+  font-family: "Muli";
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 60px;
+  border-radius: 8px;
+  background: #fb8f1d;
+  width: 180px;
+  height: 52px;
+  line-height: 40px;
+  margin-top: 40px;
+  cursor: pointer;
+  border: 1px solid #fb8f1d;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+#hero__orange__button:hover {
+  background-color: #ffffff;
+  color: #fb8f1d;
+  border: 1px solid #fb8f1d;
+}
+
+@media screen and (max-width: 768px) {
+  #hero {
+    background-image: none;
+  }
+
+  #hero__inner {
+    padding-top: 25px;
+    padding-bottom: 35px;
+  }
+
+  #hero__heading {
+    display: inline;
+    font-family: "Playfair Display", serif;
+    color: #202336;
+    font-size: 3rem;
+    font-weight: 700;
+    position: relative;
+  }
+
+  #hero__rectangle {
+    position: absolute;
+    width: 32px;
+    height: 2px;
+    border-radius: 4px;
+    background: #202336;
+    margin-top: 21px;
+    left: 47%;
+  }
+
+  #hero__bottom__dropdown__buttons {
+    padding: 0;
+  }
+
+  #hero__orange__button {
+    display: inline-block;
+    margin-top: 2rem;
+  }
+  .hero__buttons {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  #hero {
+    background-position: right 30% top 50%;
+    background-size: 700px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1150px) {
+    #hero {
+      position: relative;
+      background-image: none;
+    }
+
+    #hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("../images/hero-image.svg");
+      background-repeat: no-repeat;
+      background-position: right 1% top 31%;
+      background-size: 415px 415px;
+      z-index: -1;
+    }
+
+
+    #hero__inner {
+      padding-bottom: 0px;
+      padding-top: 50px;
+    }
+
+    #hero__heading {
+      padding-bottom: 20px;
+    }
+
+    #hero__orange__button {
+      margin-top: 40px;
+      margin-bottom: 70px;
+    }
+  }

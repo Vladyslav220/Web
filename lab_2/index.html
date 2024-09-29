@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LabWork1-V2</title>
+    <link rel="stylesheet" href="../../Web/lab_2/css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
+</head>
+
+<body>
+    <section id="hero">
+        <div class="container">
+            <header id="header">
+                <div id="header__menu__open" onclick="toggleMenu()">
+                    <img src="../../Web/lab_2/images/menu-open.svg" alt="Menu icon">
+                </div>
+                <div id="header__menu__close" onclick="toggleMenu()">
+                    <img src="../../Web/lab_2/images/menu-close.svg" alt="Menu icon">
+                </div>
+                <a id="header__logo" href = "/"><img src="../../Web/lab_2/images/logo.svg" alt="logo"></a>
+                <a id="space"></a>
+                <nav id="header__nav">
+                    <ul>
+                        <li id="line" class="header__nav-item"><a id="active-page" href="">Home</a></li>
+                        <li class="header__nav-item"><a class="not-active-page" href="">Destinations</a></li>
+                        <li class="header__nav-item"><a class="not-active-page" href="">About</a></li>
+                        <li class="header__nav-item"><a class="not-active-page" href="">Partner</a></li>
+                    </ul>
+                </nav>
+                <div id ="log__reg">
+                    <h3 id="header__login">
+                        <a href="https://example.com">Login</a>
+                    </h3>
+                    <h3 id="header__register">
+                        <a href="https://example.com">Register</a>
+                    </h3>
+                </div>
+            </header>
+            <div id="hero__inner">
+                <h1 id="hero__heading">Explore and<br> Travel</h1>
+                <p id="hero__chapter">Holiday finder</p>
+                <div id="hero__rectangle"></div>
+                <div id="hero__top__dropdown__buttons">
+                    <div class="dropdown"><button class="hero__buttons">Location</button>
+                        <div class="dropdown-content">
+                            <a href="">London</a>
+                            <a href="">Lviv</a>
+                            <a href="">New-York</a>
+                        </div>
+                    </div>
+                    <div class="dropdown"><button class="hero__buttons">Activity</button>
+                        <div class="dropdown-content">
+                            <a href="">Skiing</a>
+                            <a href="">Snowboarding</a>
+                            <a href="">Cycling</a>
+                            <a href="">Fishing</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="hero__bottom__dropdown__buttons">
+                    <div class="dropdown"> <button class="hero__buttons">Grade</button>
+                        <div class="dropdown-content">
+                            <a>White</a>
+                            <a>Green</a>
+                            <a>Blue</a>
+                            <a>Red</a>
+                        </div>
+                    </div>
+                    <div class="dropdown"><button class="hero__buttons">Date</button>
+                        <div class="dropdown-content">
+                            <a href="">09.01.2024 - 09.30.2024</a>
+                            <a href="">10.01.2024 - 10.31.2024</a>
+                            <a href="">11.01.2024 - 11.328.2024</a>
+                        </div>
+                    </div>
+                </div>
+                <form action="/submit" method="POST">
+                    <button type="submit" id="hero__orange__button">Explore</button>
+                </form>
+            </div>
+    </section>
+    <section id="adventures">
+        <div class="container">
+            <h1 id="adventures__heading">A new way to explore the<br> world</h1>
+            <h1 id="adventures__paragraph">
+                For decades travellers have reached for Lonely Planet books when looking to plan and execute their
+                perfect trip, but now, they can also let Lonely Planet Experiences lead the way
+            </h1>
+            <div id="adventures__orange__button">
+                <h2 class="button-like" onclick="window.location.href='https://example.com';">Learn more</h2>
+            </div>
+        </div>
+    </section>
+    <section id="destinations">
+        <div class="container">
+            <div id="destinations__view">
+                <h1 id="destinations__futured"> Featured destinations </h1>
+                <a href="https://example.com" id="destinations__view__all">
+                    <h2>View all
+                        <img src="../../Web/lab_2/images/destination-arrow.svg" alt=">">
+                    </h2>
+                </a>
+            </div>
+            <div id="all__nature__card">
+                <div class=destination__nature>
+                    <img class="nature__card" src="../../Web/lab_2/images/nature-image-1.svg" alt="Raja Ampat">
+                    <h1 class="text__black ">Raja Ampat</h1>
+                    <h1 class="text__grey">Indonesia</h1>
+                    <div class="white__square"></div>
+                </div>
+                <div class=destination__nature>
+                    <img class="nature__card" src="../../Web/lab_2/images/nature-image-2.svg" alt="Fanjingshan">
+                    <h1 class="text__black ">Fanjingshan</h1>
+                    <h1 class="text__grey">China</h1>
+                    <div class="white__square"></div>
+                </div>
+                <div class=destination__nature>
+                    <img class="nature__card" src="../../Web/lab_2/images/nature-image-3.svg" alt="Vevey">
+                    <h1 class="text__black ">Vevey</h1>
+                    <h1 class="text__grey">Switzerland</h1>
+                    <div class="white__square"></div>
+                </div>
+                <div class=destination__nature>
+                    <img class="nature__card" src="../../Web/lab_2/images/nature-image-4.svg" alt="Skadar">
+                    <h1 class="text__black ">Skadar</h1>
+                    <h1 class="text__grey">Montenegro</h1>
+                    <div class="white__square"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="footer__copyright">
+                <a href = "/"><img  id="footer__logo" src="../../Web/lab_2/images/footer-logo.svg" alt="logo"></a>
+                <h4 id="footer__rights">©2020 Thousand Sunny. All rights reserved</h4>
+            </div>
+            <div id="footer__rectangle"></div>
+            <nav id="footer__social__media">
+                <ul>
+                    <a class="footer__margin__right" href="https://twitter.com" target="_blank">
+                        <img class="footer__button"src="../../Web/lab_2/images/twitter.svg" alt="twitter"></a>
+                    <a class="footer__margin__right" href="https://www.facebook.com" target="_blank">
+                        <img class="footer__button" src="../../Web/lab_2/images/facebook.svg" alt="facebook"></a>
+                    <a class="footer__margin__right" href="https://www.instagram.com" target="_blank">
+                        <img class="footer__button" src="../../Web/lab_2/images/instagram.svg" alt="instagram"></a>
+                    <a class="footer__margin__right" href="https://www.linkedin.com" target="_blank">
+                        <img class="footer__button" src="../../Web/lab_2/images/linkedin.svg" alt="linkedin"></a>
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img class="footer__button" src="../../Web/lab_2/images/youtube.svg" alt="youtube"></a>
+                </ul>
+            </nav>
+            <div id="empty-block"></div>
+        </div>
+    </footer>
+    <script src="../../Web/lab_2/js/main.js"></script>
+</body>
+
+</html>
