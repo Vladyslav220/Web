@@ -1,0 +1,123 @@
+#adventures {
+  background-image: url("../images/adventure-image.svg");
+  background-repeat: no-repeat;
+  background-position: left 12% top 45%;
+  background-color: #f8f8f8;
+}
+
+#adventures__heading {
+  color: #000;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  padding-top: 207px;
+  position: relative;
+  left: 60%;
+  width: 40%;
+
+}
+
+#adventures__paragraph {
+  font-family: "Muli";
+  color: #7d7987;
+  font-size: 18.3px;
+  font-weight: 300;
+  line-height: 30px;
+  position: relative;
+  left: 60%;
+  width: 39.5%;
+  padding-top: 10px;
+}
+
+#adventures .container{
+  padding-bottom: 250px;
+}
+
+#adventures__orange__button {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  border-radius: 8px;
+  background: #fb8f1d;
+  width: 164px;
+  font-size: 11px;
+  line-height: 12px;
+  position: relative;
+  left: 60%;
+  margin-top: 30px;
+  padding: 0px;
+  margin: 0 auto;
+  border: 1px solid #fb8f1d;
+  transition: backgound-color 0.5s ease, color 0.5s ease;
+}
+
+#adventures__orange__button:hover {
+  background-color: #f8f8f8;
+  color: #fb8f1d;
+  border: 1px solid #fb8f1d;
+}
+
+@media screen and (max-width: 768px) {
+  #adventures {
+    background-image: none;
+  }
+
+  #adventures__heading {
+    padding: 17px;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    left: auto;
+    width: auto;
+  }
+
+  #adventures__paragraph {
+    margin: 0px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    left: auto;
+    width: auto;
+  }
+  #adventures .container{
+    padding-bottom: 150px;
+  }
+
+  #adventures__orange__button {
+    margin-top: 30px;
+    font-size: 13px;
+    left: auto;
+  }
+}
+
+  @media screen and (min-width: 768px) {
+    #adventures__orange__button {
+      margin: 0;
+      margin-top: 30px;
+    }
+  }
+
+
+@media screen and (min-width: 2000px) {
+  #adventures {
+    position: relative;
+    background-position: left 32% top 10%;
+    background-size: 700px;
+    max-width: 100%;
+    padding-bottom: 50px;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  #adventures {
+    position: relative;
+    background-position: left 7% top 50%;
+    background-size: 450px;
+  }
+}
+
+
+

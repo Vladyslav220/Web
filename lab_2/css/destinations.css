@@ -1,0 +1,138 @@
+#destinations__view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 163px;
+}
+
+#destinations__futured {
+  color: #000;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  position: relative;
+  left: 4%;
+}
+
+#destinations__view__all {
+  font-family: "Inter", sans-serif;
+  color: #fb8f1d;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 60px;
+  cursor: pointer;
+  margin-right: 4%;
+}
+
+#all__nature__card {
+  text-align: center;
+  padding-bottom: 135px;
+  padding-top: 56px;
+}
+.destination__nature {
+  display: inline-block;
+  margin-bottom: 27px;
+  position: relative;
+  margin-left: 1%;
+  margin-right: 1%;
+  transition: transform 0.3s ease;
+}
+.destination__nature:hover {
+  transform: translateY(-40px);
+}
+.nature__card {
+  z-index: 1;
+  border-radius: 8px;
+  width: 261px;
+  height: 332px;
+  position: relative;
+  cursor: pointer;
+}
+
+.text__black,
+.text__grey {
+  z-index: 3;
+  position: absolute;
+  font-family: "Inter", sans-serif;
+}
+
+.text__black {
+  color: #042521;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 25px;
+  top: 287px;
+}
+
+.text__grey {
+  color: #80918e;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  top: 312px;
+}
+
+.white__square {
+  position: absolute;
+  margin-top: 0px;
+  height: 60px;
+  width: 120px;
+  top: 272px;
+  background-color: #ffffff;
+  z-index: 2;
+  border-top-right-radius: 6px;
+}
+
+@media screen and (max-width: 768px) {
+  #destinations__view {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  #destinations__futured {
+    position: relative;
+    margin: 0px;
+    padding-top: 10px;
+    width: auto;
+    font-size: 30px;
+    left: auto;
+  }
+
+  #destinations__view__all {
+    margin: 0px;
+    padding-top: 10px;
+    left: auto;
+  }
+
+  .destination__nature:hover {
+    transform: translateY(-30px);
+  }
+
+  #all__nature__card {
+    padding-bottom: 60px;
+    padding-top: 25px;
+  }
+
+  .nature__card {
+    margin-left: 0px;
+  }
+
+  .white__square {
+    height: 62px;
+    left: -1px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  #destinations {
+    top: 320px;
+  }
+
+  .white__square {
+    height: 62px;
+    left: -1px;
+  }
+}
