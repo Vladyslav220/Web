@@ -1,0 +1,53 @@
+.wrapper {
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 35px;
+}
+
+.selectSort {
+  width: 200px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+.myLabel {
+  flex-direction: column;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+.myLabel input {
+  margin-top: 5px;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.myButton {
+  width: 110px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #82BBB5;
+  color: white;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.myButton span {
+  font-size: 18px;
+}
