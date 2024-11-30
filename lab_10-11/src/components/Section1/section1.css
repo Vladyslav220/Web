@@ -1,0 +1,30 @@
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.section1-image {
+    margin: -60px 30px 0; /* Встановлюємо негативний верхній відступ */
+    width: 400px;
+    height: auto;
+}
+
+
+
+.section1-text {
+    flex: 1;
+    margin-left: 50px;
+}
+
+.section1-text-title {
+    font-size: 35px;
+    margin: 0 0 15px;
+    color: #333;
+}
+
+.section1-text-paragraph {
+    font-size: 28px;
+    color: #7A7A7A;
+    margin: 30px 30px 0 0;
+}

@@ -1,0 +1,20 @@
+.success-container {
+    padding: 20px;
+    background-color: #d4edda;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #28a745;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
