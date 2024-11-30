@@ -1,0 +1,31 @@
+.lamp-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+.lamp-section-column {
+  text-align: center;
+  padding: 20px;
+}
+
+.lamp-section-image {
+  margin-bottom: 20px;
+  object-fit: contain;
+}
+
+.lamp-section-text-title {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.lamp-section-text-paragraph {
+  color: #7A7A7A;
+  font-size: 18px;
+}
+
+.lamp-section-column:hover {
+  background-color: #f5f5f5;
+  transition: background-color 0.3s ease;
+}

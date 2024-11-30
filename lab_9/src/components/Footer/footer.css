@@ -1,0 +1,66 @@
+/* Глобальні стилі для body і html */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Розміщуємо контент по вертикалі */
+}
+
+.main-content {
+    flex-grow: 1; /* Гарантуємо, що контент займе всю висоту */
+}
+
+.footer {
+    background-color: #303636; /* Темний фон */
+    color: white;
+    padding: 20px; /* Відступи */
+    margin-top: auto; /* Футер буде "прилипати" до низу сторінки */
+}
+
+.footer__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logos1 {
+    margin: 0 15px;
+    width: 40px;
+    height: 40px;
+}
+
+.footer__logos {
+    margin: 45px 20px 0 0;
+}
+
+.footer__logo {
+    margin: 35px 100px 0 0;
+}
+
+.footer__text-title {
+    margin: 30px 0 20px 30px;
+    font-size: 30px;
+}
+
+.footer__text-paragraph {
+    width: 350px;
+    margin: 0 0 50px 30px;
+    font-size: 16px;
+    color: white;
+}
+
+.footer__bottom-line {
+    width: 97%;
+    height: 1px;
+    background-color: white;
+    margin: 0 auto 20px;
+}
+
+.footer__bottom-copyrights {
+    text-align: center;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 0px;
+    color: white;
+}
+
